@@ -198,12 +198,10 @@ public class WeatherLocations extends AppCompatActivity {
         * environment we recommend using a secure mechanism to manage API keys.
         */
 
-        //String placesApi = getString(R.string.placesAPI);
-        //String API = "AIzaSyCyhFTpgtZB-JPjBKEHEEu4k3--UYkdxwk";
-        String placesApi = "AIzaSyCLv4GpChbAn-C9HywCA3XWUJrV3z4oa9s";
+   
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), placesApi);
+            Places.initialize(getApplicationContext(), /*placesApi*/);
         }
 
         // ---- NEW CODE ----
