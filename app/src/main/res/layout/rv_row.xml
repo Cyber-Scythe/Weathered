@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/locationCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_margin="2dp">
+
+        <ImageView
+            android:id="@+id/currWeatherBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#83070707"
+            android:backgroundTintMode="src_over"
+            android:contentDescription="@string/blank"
+            android:onClick="backToMain"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/localTime"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:elevation="4dp"
+            android:focusedByDefault="true"
+            android:gravity="center_vertical"
+            android:onClick="backToMain"
+            android:text="@string/current_time"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/currCityName"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:elevation="4dp"
+            android:focusedByDefault="true"
+            android:text="@string/cityName"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/currLocTemp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="10dp"
+            android:elevation="4dp"
+            android:gravity="center|center_vertical"
+            android:text="@string/temp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

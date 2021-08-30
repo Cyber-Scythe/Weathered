@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="temp">temp</string>
+    <string name="weatherDescription">weatherDescription</string>
+    <string name="cityName">cityName</string>
+    <string name="blank">blank</string>
+    <string name="current_location">current Location</string>
+    <string name="change_city">change city</string>
+    <string name="backgroundImageView">backgroundImageView</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">add</string>
+    <string name="current_time">current time</string>
+    <string name="APP_ID">61ff9cef1911b07b4d5bb4b69fb7a82e</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
